@@ -21,25 +21,49 @@ public class MathLab02st
           
 		System.exit(0);
 	}
+	
+	
+
 }
+
 
 				
 
 class Rational
 {
-		
+	
+	private int num, den;
+
+
 //	Rational
-	
+	public Rational(int n, int d)
+	{
+		num = n;
+		den = d;
+	}
 //	getNum
-	
+	public int getNum()
+	{
+		return num;
+	}
 //	getDen
-
+	public int getDen()
+	{
+		return den;
+	}
 //	getDecimal
-
+	public double getDecimal()
+	{
+		return num/den;
+	}
 //	getRational 
-	
+	public int getRational()
+	{
+		return den;
+	}
 //	getOriginal
-
+ //public int getOriginal ()
+ 
 //	reduce
 
 	private int getGCF(int n1,int n2)
@@ -59,7 +83,7 @@ class Rational
 		}
 		while (rem != 0);
 		return gcf;
-	} 
+	}
 }
 
 
