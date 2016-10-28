@@ -54,7 +54,7 @@ class Rational
 //	getDecimal
 	public double getDecimal()
 	{
-		return num/den;
+		return (double) num/den;
 	}
 //	getRational 
 	public int getRational()
